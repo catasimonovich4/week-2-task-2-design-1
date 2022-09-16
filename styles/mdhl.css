@@ -77,30 +77,63 @@ section {
     top: 278px;
 }
 
+.HP-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: 300px;
+    top: 278px;
+    width: 100%;
+}
+
+
 .text-container {
     margin-top: 7px;
     margin-left: -40px;
     width: 100%;
 }
 
+.h-p3-container {
+    width: 100%;
+}
+
 .h-container {
-    margin-top: 42px;
+    margin-top: 33px;
+}
+
+.hP1-container {
+    font-style: italic;
+}
+
+.hP2-container {
+    font-style: italic;
+    margin-top: 33px;
 }
 
 .p-container{
     padding-left: 30px;
-    margin: -12px;
+    margin-top: -16px;
+    font-size: 17px;
 }
 
 .pa-container {
-    font-size: 15px;
-    padding-left: 30px;
+    font-size: 18px;
+    padding-left: 14px;
     margin: -12px;
+    text-indent: 1rem;
 }
 
 .textA-container {
-    margin-left: -70px;
+    margin-left: -90px;
     width: 100%;
+    margin-top: 7px;
+}
+
+.textC-container {
+    margin-left: -80px;
+    margin-top: 9px;
+    font-size: 17px;
 }
 
 
